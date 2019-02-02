@@ -1,26 +1,11 @@
 #include <iostream>
+using namespace std;
 
 int main(){
-    using namespace std;
-    int pln;
-    int usd;
-    int waluta;
-    int waluta2;
-    cout << "jaką masz walute USD(1) lub PLN(2)";
-    cin >> waluta;
-    cout << "podaj ile masz PLN lub USD";
-    cin >> waluta2;
-
-    if(waluta == 1){
-        waluta2 = usd;
-    }else{
-        waluta2 = pln;   
-    }
-
-    usd = 3.72 * pln;
-    pln = usd/3.72;
-
-    cout << "wynik to" << pln << endl;
-   
+    double pln, usd;
+    cout << "podaj ile masz pln: ";
+    cin >> pln;
+    usd = pln * 3.72;
+    cout << "ilosc usd to " << usd << endl;
 return 0;
 }
