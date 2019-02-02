@@ -1,9 +1,8 @@
 #include <iostream>
+using namespace std;
 
 int main(){
-    using namespace std;
-    int pln;
-    int usd;
+    double pln, usd;
     cout << "podaj ile masz pln: ";
     cin >> pln;
     usd = pln * 3.72;
