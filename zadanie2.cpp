@@ -1,11 +1,14 @@
 #include <iostream>
 using namespace std;
 
+
 int main(){
-    double pln, usd;
-    cout << "podaj ile masz pln: ";
-    cin >> pln;
-    usd = pln * 3.72;
-    cout << "ilosc usd to " << usd << endl;
-return 0;
+    cout << "Przeliczanie USD na PLN" << endl;
+    int usd;
+    int pln;
+    cout << "Podaj ile masz $ ";
+    cin >> usd;
+    pln = usd * 3.79;
+    cout << "Dostaniesz " << pln << "zł" << endl;
+    return 0;
 }
