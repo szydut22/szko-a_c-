@@ -4,4 +4,9 @@ Ewa 3
 Ela 3
 Janusz 6
 Agnieszka 9
+Agata 5
+Beata  6
 A 1
+Zzzz 4
+Xz 2
+Azx 3
